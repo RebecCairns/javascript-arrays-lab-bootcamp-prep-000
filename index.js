@@ -26,7 +26,10 @@ function prependKitten(name){
   newArray = newArray.concat(kittens);
   return newArray;
 }
-//removeLastKitten()r
+function removeLastKitten(){
+  var newArray = kittens.slice(-2);
+  return newArray;
+}
 //removeFirstKitten()
 
 // Add your functions and code here
