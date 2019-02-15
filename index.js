@@ -22,9 +22,8 @@ function appendKitten(name){
   return newArray;
 }
 function prependKitten(name){
-  //var newArray[];
-  //newArray[0] = name;
-  //newArray = newArray.concat(name);
+  var newArray = [name];
+  newArray = newArray.concat(kitten);
   return newArray;
 }
 //removeLastKitten()r
